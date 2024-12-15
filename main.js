@@ -4,6 +4,7 @@ function adicionarContatos() {
 
     if(!nome || !telefone) {
         alert('Por favor, preencha todos os campos.')
+        return;
     }
 
     const listaContatos = document.getElementById('listaContatos');
