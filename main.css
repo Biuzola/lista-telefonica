@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(212, 212, 212);
+}
+
+.container {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 0px rgb(96, 173, 102);
+    text-align: center;
+    width: 20%;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: flex;
+    margin: 10px 0 5px;
+    
+}
+
+input {
+    padding: 11px;
+    border: 1px solid rgb(1, 90, 1);
+    border-radius: 5px;
+    margin: 2px 0;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(4, 117, 4);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+#listaContatos {
+    list-style-type: none;
+    padding: 0;
+    font-size: 10px;
+}
+
+#listaContatos li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contactForm {
+    flex-direction: column;
+    display: flex;
+}
+
+@media screen and (max-width: 700px){
+    .container {
+        width: 70%;
+        zoom: 0;
+    }
+}

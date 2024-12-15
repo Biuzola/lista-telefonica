@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Telefones</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista telefonica</h1>
+        <form id="contactForm">
+            <input type="text" id="nome" required placeholder="Nome">
+            <input type="number" id="numero" required placeholder="Numero de telefone">
+            <button type="submit" onclick="adicionarContatos()">Adicionar</button>
+        </form>
+        <h4>Contatos</h4>
+        <ul id="listaContatos"></ul>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
